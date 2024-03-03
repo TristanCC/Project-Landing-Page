@@ -1,0 +1,140 @@
+* {
+        /*Reset's every elements apperance*/
+        background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        border-spacing: 0;
+        line-height: 1.42rem;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0;
+        font-family: roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7eb;
+    padding-left: 1rem;
+}
+
+.maincolumn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 130vh;
+}
+
+.maincolumn > * {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    width:100%;
+    flex:1;
+}
+
+.header {
+    padding-top: 1vh;
+    color:#F9FAF8;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.roboto-black.herotitle {
+    padding-bottom: 1rem;
+}
+
+.awesomerow {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.textcolumn1 {
+    flex-direction: column;
+    width:20%;
+}
+
+.one {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5e7eb;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actioncontainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 3rem 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textcolumn2 {
+    padding-right: 40rem;
+}
+
+.footer2 {
+    color:#F9FAF8;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    flex:0.25;
+    background-color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+
+}
+.quotesayer{
+    display: flex;
+}
+
+.button1, .button2 {
+    color:#E5E7eb;
+    border: none;
+    margin: 0;
+    padding: 0.25rem 2rem;
+    width: auto;
+    overflow: visible;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.button1 {
+    background: #3882f6;
+    border-radius: 5px;
+}
+
+.button2 {
+    border: #E5E7eb solid;
+    background: transparent;
+}
