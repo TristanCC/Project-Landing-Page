@@ -3,7 +3,7 @@
         background: none repeat scroll 0 0 transparent;
         border: medium none;
         border-spacing: 0;
-        line-height: 1.42rem;
+
         list-style: none outside none;
         margin: 0;
         padding: 0;
@@ -41,17 +41,21 @@ a {
     flex:1;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    margin:auto;
+    justify-content: center;
 }
 
-.roboto-black.herotitle {
-    padding-bottom: 1rem;
+
+.onecolumn {
+    display: flex;
+    flex-direction: column;
 }
 
 .awesomerow {
     display: flex;
     margin-top: 5rem;
     justify-content: center;
+    flex-direction: row;
 }
 
 .textcolumn1 {
@@ -59,14 +63,55 @@ a {
     width:20%;
 }
 
+.imageholder {
+    background-color: #3882f6;
+    margin-left: 10rem;
+    width:20%;
+}
+
 .one {
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 .two {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.array {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.randominfo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border: #3882f6 solid 3px;
+    border-radius: 15px;
+}
+
+.squaretext {
+    text-align: center;
+    width:150px;
+    padding-top: 1rem;
 }
 
 .three {
@@ -91,7 +136,7 @@ a {
     border-radius: 10px;
     padding: 3rem 10%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .textcolumn2 {
@@ -111,11 +156,18 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
-    width:50%;
+    width:40%;
+    
 
 }
 .quotesayer{
     display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;
+    padding-right: 20px;
+  
 }
 
 .button1, .button2 {
@@ -132,6 +184,7 @@ a {
 .button1 {
     background: #3882f6;
     border-radius: 5px;
+    margin-top: 1vh;
 }
 
 .button2 {
